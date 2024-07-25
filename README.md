@@ -4,3 +4,8 @@
 #### En términos sencillos se puede definir una computadora como una máquina que obedece órdenes para efectuar cálculos y operaciones lógicas en poco tiempo. Es un dispositivo que puede recibir, almacenar, procesar información y generar resultados o respuestas.
 # *Partes de la computadora*
 #### Se compone de dos partes esenciales: el hardware, que es su estructura física (circuitos electrónicos, cables, gabinete, teclados, etc), y el software, que es su parte intangible (programas, datos, información, señales digitales para uso interno, etc.).
+espacio para imagen...
+
+
+## *Relación entre hardware y software*
+#### La interacción entre el software y el hardware hace operativo un ordenador (u otro dispositivo), es decir, el software envía instrucciones que el hardware ejecuta, haciendo posible su funcionamiento.
