@@ -39,5 +39,5 @@
 ### **Datos aprendidos en el proceso de investigacion(descubrimientos)**
 #### Hay una gran cantidad de procesos muy complejos sucediendo cuando se está iniciando el computador y algunos de ellos tienen que funcionar obligatoriamente porque sino el computador no enciende
 ## **Fuentes**
-https://hardzone.es/tutoriales/montaje/arrancar-ordenador/
-https://es.wikipedia.org/wiki/Sistema_operativo
+#### https://hardzone.es/tutoriales/montaje/arrancar-ordenador/
+#### https://es.wikipedia.org/wiki/Sistema_operativo
