@@ -42,6 +42,7 @@ inicio
     A=año_actual-año
     B=mes_actual-mes
     C=dia_actual-dia
+    D= A-1
     si A=0 entonces
         si B=0 entonces
             si C=0 entonces
@@ -58,16 +59,16 @@ inicio
                 imprimir "Feliz cumpleaños :D su edad es {A} años"
             sino entonces
                 si C>0 entonces
-                    imprimir "Usted ya cumplio años su edad es {} años {} meses {} días"
+                    imprimir "Usted ya cumplio años su edad es {A} años {B} meses {C} días"
                 sino entonces
-                    imprimir "Tú cumpleaños no ha pasado"
+                    imprimir "Tú cumpleaños no ha pasado, tu edad es {D} años {B} meses {C} días"
                 fin si
             fin si
         sino entonces
             si B>0 entonces
-                imprimir "Usted ya cumplio años"
+                imprimir "Usted ya cumplio años su edad es {A} años {B} meses {C} días"
             sino entonces
-                imprimir "Tú cumpleaños no ha pasado"
+                imprimir "Tú cumpleaños no ha pasado tu edad es {D} años {B} meses {C} días"
             fin si
         fin si
     fin si
