@@ -78,3 +78,29 @@ inicio
 
 fin
 ```
+
+-------------------------
+```
+inicio
+    Costo=0
+    imprimir "señor usuario digite la cantidad de horas"
+    leer H
+    si H<=2 entonces
+        Costo=H*5
+    sino 
+        si H<=5 entonces
+            Costo=10+(H-2)*4
+        sino 
+            si H<=10 entonces
+                Costo=22+(H-5)*3
+            sino 
+                Costo=H*2
+            fin si
+        fin si
+    fin si
+    imprimir "señor usuario el costo del parqueadero es:" Costo
+
+    
+   
+fin
+```
