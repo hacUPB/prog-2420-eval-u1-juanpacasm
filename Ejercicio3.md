@@ -7,14 +7,16 @@ inicio
     notas=0
     R=0
     promed= notas/n_mate
-    si n_mate>R entonces
+    repetir
         imprimir "señor usuario digite la nota"
         leer not
         notas= notas + not
         R=R+1
-    sino entonces
-        imprimir "señor usuario su promedio es:" promed
-    fin si
+    hata que n_mate=R
+    si promed>3
+        imprimir "felicidades señor usuario usted ha aprobado sus examenes, su promedio es de:"promed
+    sino
+        imprimir "señor usuario usted no aprobo sus examenes, su promedio es:"promed
 fin
 ```
 
@@ -22,7 +24,23 @@ fin
 ## Descripción del problema: María tiene un registro de las velocidades a las que ha conducido su vehículo y el tiempo que ha mantenido cada velocidad. Quiere calcular la distancia total recorrida.
 ```
 inicio
-   
+    Definir ls_Vel
+    Definir ls_tiem
+
+    Leer ls_vel
+    Leer ls_tiem
+
+    Definir distancia_total = 0
+
+    Para 1 desde 0 hasta longitud(ls_vel) - 1
+        hacer vel_actual = ls_vel
+        tiem_actual = ls_tiem
+        
+        Multiplicar vel_actiual por tiem_actual para obtener distancia
+        
+        sumar distancia_total a distancia e igualar a distancia_total
+
+    Imprimir distancia_total
 fin
 ```
 
@@ -80,6 +98,7 @@ fin
 ```
 
 -------------------------
+ejemplo en clase parqueadero
 ```
 inicio
     Costo=0
